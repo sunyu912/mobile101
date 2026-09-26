@@ -4,7 +4,9 @@ A step-by-step guide for students. No coding experience needed — you will tell
 
 **What you'll need before starting:**
 
-- A computer (Mac or Windows) with the **Claude desktop app** installed, signed in to an account with **Claude Code** access (ask a parent to help set this up — it requires a paid Claude plan)
+- A computer (Mac or Windows) with an **AI coding assistant** installed — either one works (ask a parent to help set it up; both require a paid plan):
+  - **Claude Code** (the Claude desktop app, Code tab), or
+  - **Codex** (OpenAI's coding agent, in the ChatGPT desktop app or the Codex CLI)
 - A smartphone (iPhone or Android)
 - Your phone and computer connected to the **same Wi-Fi network**
 - About 1–2 hours
@@ -13,15 +15,16 @@ A step-by-step guide for students. No coding experience needed — you will tell
 
 # Module 1 — Make a Mobile App and Run It on Your Phone
 
-You are going to build a real mobile app using **React Native** (the same technology used by apps like Instagram and Discord) and preview it on your phone with a free app called **Expo Go**. You won't write a single line of code — **Claude Code** (an AI coding assistant) will do that part.
+You are going to build a real mobile app using **React Native** (the same technology used by apps like Instagram and Discord) and preview it on your phone with a free app called **Expo Go**. You won't write a single line of code — your **AI coding assistant** (Claude Code or Codex) will do that part.
 
-> 💡 **How this works:** you type instructions (called **prompts**) to Claude Code, and it writes the code, fixes the errors, and runs the app. Copy the prompts below exactly, or change them to fit your idea.
+> 💡 **How this works:** you type instructions (called **prompts**) to your AI assistant, and it writes the code, fixes the errors, and runs the app. The prompts in this guide work the same in Claude Code and Codex — copy them exactly, or change them to fit your idea.
 
 ### Step 1 — Create a new folder and start a fresh session
 
 1. On your computer, create a new **empty folder** — name it something like `my-mobile-app`.
-2. Open the Claude desktop app and go to the **Code** tab (this is Claude Code).
-3. Start a **New Session**, and choose your new folder as the working folder.
+2. Open your AI assistant **in that folder**:
+   - **Claude Code:** open the Claude desktop app, go to the **Code** tab, start a **New Session**, and choose your new folder as the working folder.
+   - **Codex:** open Codex (in the ChatGPT desktop app, or by running `codex` in a terminal) and pick your new folder as the project/working folder.
 
 Then send this prompt to make sure everything is set up:
 
@@ -32,7 +35,10 @@ I'm going to build a new mobile app project here today.
 
 ### Step 2 — Set the permission mode to Auto
 
-Claude Code will need to create files and run commands. Set the permission mode to **Auto** so it can work without asking you to approve every small step. You can usually find this in the session's permission settings (it may show options like Ask / Auto).
+Your AI assistant will need to create files and run commands. Set its permission/approval mode to **Auto** so it can work without asking you to approve every small step:
+
+- **Claude Code:** in the session's permission settings, choose **Auto** (not Ask).
+- **Codex:** choose the **Auto** approval mode (the default in most setups; avoid "full access" — Auto is enough).
 
 ### Step 3 — Install Expo Go on your phone
 
@@ -65,7 +71,7 @@ Think of a simple app idea for your first build. Good first projects:
 - A homework planner
 - A simple habit tracker
 
-Copy the prompt below, replace the two 【placeholders】, and send it to Claude Code:
+Copy the prompt below, replace the two 【placeholders】, and send it to your AI assistant:
 
 ```
 Please build me a 【your app idea, e.g. "to-do list"】 mobile app using React Native (Expo).
@@ -82,11 +88,11 @@ When you're done, start the development server and show me a QR code so I can
 scan it with Expo Go on my phone.
 ```
 
-Now wait a few minutes while Claude Code builds your app. It's okay if it asks you questions — if you're not sure, just reply: `You decide.`
+Now wait a few minutes while your AI assistant builds your app. It's okay if it asks you questions — if you're not sure, just reply: `You decide.`
 
 ### Step 7 — Scan the QR code and open your app 🎉
 
-Claude Code will show you a QR code.
+Your AI assistant will show you a QR code.
 
 - **iPhone:** open the built-in Camera app, point it at the QR code, and tap the yellow **"Open in Expo Go"** banner.
 - **Android:** open Expo Go and tap **"Scan QR code"**.
@@ -232,8 +238,8 @@ Then iterate, iterate, iterate — show it to the person you interviewed, collec
 |---|---|
 | Phone can't load the app / QR does nothing | Check both devices are on the **same Wi-Fi** (Step 4) |
 | "Requires a newer version of Expo Go" | Use the fix prompt in Module 1, Step 8 |
-| Claude Code asks a question you don't understand | Reply: `You decide.` |
-| Something broke after a change | Tell Claude Code what you see on the screen, in plain words: "After the last change, the app shows a red error screen that says ___. Please fix it." |
-| App disappeared from phone after closing everything | On the computer, ask Claude Code: "Please start the development server again and give me a new QR code." |
+| Your AI assistant asks a question you don't understand | Reply: `You decide.` |
+| Something broke after a change | Tell your AI assistant what you see on the screen, in plain words: "After the last change, the app shows a red error screen that says ___. Please fix it." |
+| App disappeared from phone after closing everything | On the computer, ask your AI assistant: "Please start the development server again and give me a new QR code." |
 
 Have fun — and remember: every app you admire started as version 1 that kind of stunk. Iterate. 🚀
